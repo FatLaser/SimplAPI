@@ -6,9 +6,9 @@
 trigger:
 - master
 
-pool:
+pool: MyAgentPool
   #vmImage: 'windows-latest'
-  name: 'MyAgentPool'
+  #name: 'MyAgentPool'
 
 variables:
   solution: '**/*.sln'
