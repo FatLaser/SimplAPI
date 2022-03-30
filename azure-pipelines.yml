@@ -14,8 +14,6 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
-publishWebProjects: false
-
 steps:
 - task: NuGetToolInstaller@1
 
